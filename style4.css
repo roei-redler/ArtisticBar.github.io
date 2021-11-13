@@ -357,7 +357,7 @@ ul.no-bullet {
 }
 
 .boat-body {
-  width: 100px;
+  width: auto;
   height: 20px;
   background: #e25c45;
   border-top-left-radius: 3px;
@@ -540,7 +540,7 @@ ul.no-bullet {
   color: white;
   font-size: 37px;
   top: 50%;
-  right: 45%;
+
   position: absolute;
   z-index: 99;
   text-decoration: none;
