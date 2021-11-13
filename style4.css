@@ -3,10 +3,13 @@ th, td {
   border-radius: 30px;
   width:50%;
   height:200px;
+
 }
+tr:hover {background-color: pink;}
 #table1 {
   border-collapse: separate;
   border-spacing: 45px;
+
 }
 .second{
   text-align: center;
