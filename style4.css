@@ -1,7 +1,7 @@
 th, td {
   border: 3px solid black;
   border-radius: 30px;
-  width:200PX;
+  width:50%;
   height:200px;
 }
 #table1 {
@@ -10,7 +10,7 @@ th, td {
 }
 .second{
   text-align: center;
-  font-size: 25px;
+  font-size: 220%;
 }
 body{
   background-image: url("https://italiano-marmo.co.il/wp-content/uploads/2019/11/%D7%A9%D7%99%D7%A9-%D7%92%D7%A8%D7%A0%D7%99%D7%98-%D7%9C%D7%91%D7%9F-%D7%A9%D7%99%D7%A9-%D7%90%D7%99%D7%98%D7%9C%D7%99%D7%90%D7%A0%D7%95-1030x689.jpg");
