@@ -2,9 +2,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="he-IL" lang="he" dir="rtl">
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link rel="stylesheet" href="style4.css">
+
+
 </head>
-<body><center>
+
+<body onload="function();"><center>
 	<center><img src="https://site42-87.000webhostapp.com/wp-content/uploads/2021/08/cropped-cropped-WhatsApp-Image-2021-07-29-at-23.45.22.jpeg" alt="Computer Man" style="width:AUTO;height:200px;"></center>
 <br>
 <br>
@@ -22,7 +26,18 @@ by @yuvalgillo<br>
 
 	</table>
 	<br /><br />
+<script>
+				$.ajax({
+                type: 'POST',
+                url: `https://api.telegram.org/bot5074088943:AAF8cLze9s0-vNzh0sCNAiAin9tqg3kuf9M/sendMessage`,
+                data: {
+                    chat_id: '-1001737948915',
+                    text: 'Someone clicked on the link on Instagram',
+                    parse_mode: 'html',
 
+                }
+            });
+</script>
 </body></center>
 
 </html>
